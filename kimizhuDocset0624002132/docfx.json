@@ -3,15 +3,15 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "LICENSE-CODE"
         ]
       }
     ],
@@ -19,7 +19,14 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/**.svg",
+          "**/*.css",
+          "**/*.js",
+          "**/*.html",
+          "**/*.xml",
+          "**/*.config"
+
         ],
         "exclude": [
           "**/obj/**",
@@ -32,6 +39,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "kimizhuDocset0624002132"
+    "dest": "prod-test"
   }
 }
