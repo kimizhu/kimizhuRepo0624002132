@@ -1,1 +1,0 @@
-# Welcome to devsandbox Landing Pages!
